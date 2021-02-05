@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <meta name="author" content="Evelyn">
+    <meta name="keywords" content="primeiro programa, autoria web, conhecendo tags">
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/contato.css" />
+    <title>contato</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <h3>Me conheça:</h3>
+        <ul>
+            <li><a href="index.html" >Início</a></li>
+            <li><a href="profissional.html" >Experiência profissional</a></li>
+            <li><a href="academico.html" >Perfil acadêmico</a></li>
+            <li><a href="eventos.html" >Eventos</a></li>
+            <li><a href="contato.html" >Contato</a></li>
+            <li><a href="vendas.html">Cursos</a></li>
+        </ul>
+    </nav>
+    <div id="atributos">
+    </div>
+    <section class="redes">
+
+        <a href="http://instagram.com/evelynffagundes" target="blank"><img src="imagens/instagram.png" width="40px"
+                height="40px">
+            <a href="https://www.youtube.com/channel/UCMcRYVN7ls-yPUAaAzGqaBQ" target="blank"><img
+                    src="imagens/youtube.png" width="40px" height="40px">
+            </a>
+    </section>
+    <div class="formulario">
+        <form action="contato" method="POST">
+            <h1>CONTATO</h1>
+
+            <p>Nome completo:<label></label>
+                <input type="text" name="nome" value="" class="dados" size="45"/>
+            </p>
+               <p>Whatsapp:<label></label>
+                <input type="text" name="numero" value="" class="dados" />
+            </p>
+
+            <p>Email:<label></label>
+                <input type="text" name="email" value="" class="dados" />
+
+            </p>
+            <p> Como conheceu a página?</p> <select name="assunto">
+                <option>SELECIONE</option>
+                <option>Amigos</option>
+                <option>Indicação</option>
+                <option>Instagram</option>
+                <option>Youtube</option>
+                <option>Outros</option>
+
+            </select>
+            </p>
+
+           <p> Gostou das minhas qualificações?
+            
+
+                <input type="radio" name="pergunta" value="Sim" checked="checked" />Sim
+                <input type="radio" name="pergunta" value="Não" />Não
+            </p>
+
+
+            <p> Quer me conhecer mais?  
+                entre em contato:</p>
+            
+                <textarea cols="50" rows="6"></textarea>
+                
+            </p>
+
+
+            <a href="#"><img src="imagens/submit.png" width="90px" height="100px"></a>
+           
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+#galeria{
+    width: 900px;
+    height: 200px;
+    left: 30%;
+    top:45%;
+    margin-left: -30px;
+    margin-top: 40px;
+    padding: 40px;
+    text-align: justify;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.miniatura{
+    
+    padding: 10px; 
+   
+}

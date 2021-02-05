@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta name="author" content="Evelyn">
+    <meta name="keywords" content="primeiro programa, autoria web, conhecendo tags">
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+
+    <title>Loja</title>
+</head>
+
+<body>
+
+    <nav class="menu">
+        <h3>Me conheça:</h3>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="profissional.html">Experiência profissional</a></li>
+            <li><a href="academico.html">Perfil acadêmico</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="vendas.html">Cursos</a></li>
+        </ul>
+    </nav>
+    <div id="atributos">
+
+        <img src="img7.png" class="imgRedonda">
+
+        <section id="conteudo">
+            <h1>Curso JavaScript</h1>
+            <h3>R$: 300,00</h3>
+            <p>Curso para iniciantes em JavaScript.<br>
+                Requisitos:<br>
+                - Conhecimento básico em HTML e CSS;
+                - Lógica de programação.
+
+            </p>
+
+        </section>
+        <Section id="vendas">
+            <script>
+                function calctotal(){
+                  var q = parseFloat(document.getElementById('quantidade').value);
+          
+                  
+                 
+                  
+          
+                  var resul = q*300;
+          
+                  document.getElementById('total').value = resul;
+          
+                }
+          
+              </script>
+          
+              <form method="POST" action="" oninput="calctotal()">
+                  <label for="quantidade">quantidade</label><input type="number" id="quantidade"/></br>
+                  
+                  Valor total: <input type="text" id="total" readonly/> 
+          
+                  <button onclick="alert('Compra realizada com sucesso!')">Finalizar compra</button>
+          
+              </form>
+          
+          
+              <script src="script.js"></script>
+</body>
+
+</html>
